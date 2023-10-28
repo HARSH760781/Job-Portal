@@ -1,4 +1,4 @@
-export const server = "http://localhost:8080";
+export const server = process.env.REACT_APP_SERVER || "http://localhost:8080";
 
 const apiList = {
   login: `${server}/auth/login`,
