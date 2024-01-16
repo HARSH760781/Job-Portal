@@ -51,6 +51,7 @@ const useStyles = makeStyles((theme) => ({
 
 const ApplicationTile = (props) => {
   const classes = useStyles();
+  // console.log(props);
   const { application } = props;
   const setPopup = useContext(SetPopupContext);
   const [open, setOpen] = useState(false);

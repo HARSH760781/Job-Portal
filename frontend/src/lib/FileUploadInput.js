@@ -30,7 +30,7 @@ const FileUploadInput = (props) => {
       },
     })
       .then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         handleInput(identifier, response.data.url);
         setPopup({
           open: true,
